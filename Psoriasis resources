@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psoriasis Resources</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            line-height: 1.6;
+        }
+        .resource-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .resource-item {
+            display: block;
+            padding: 20px;
+            margin: 15px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #2563eb;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: 1px solid #e5e7eb;
+        }
+        .resource-item:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .resource-title {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+        .resource-description {
+            color: #4b5563;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .last-updated {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.8em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resource-container">
+        <h1>Psoriasis Information Resources</h1>
+        
+        <a href="https://www.psoriasis-association.org.uk/" class="resource-item">
+            <div class="resource-title">Psoriasis Association UK</div>
+            <div class="resource-description">The leading national charity and membership organization for people affected by psoriasis in the UK. Offers support, information, and funds research.</div>
+        </a>
+
+        <a href="https://www.bad.org.uk/pils/psoriasis-an-overview/" class="resource-item">
+            <div class="resource-title">British Association of Dermatologists</div>
+            <div class="resource-description">Comprehensive overview of psoriasis from the UK's leading professional dermatology organization. Includes detailed medical information and treatment options.</div>
+        </a>
+
+        <a href="https://www.psoriasis.org/" class="resource-item">
+            <div class="resource-title">National Psoriasis Foundation</div>
+            <div class="resource-description">Leading U.S.-based nonprofit organization providing comprehensive information, research updates, and support for people with psoriasis.</div>
+        </a>
+
+        <p class="last-updated">Last updated: October 2024</p>
+    </div>
+</body>
+</html>
